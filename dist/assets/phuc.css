@@ -690,4 +690,110 @@ figure {
 .main .section-3 .table-content .compare td,
 .main .section-3 .table-content .compare th {
   border: 1px solid #e6e9f5;
+}
+
+.main .trend-section .title-gradient {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.main .trend-section .title-gradient h3 {
+  font-family: var(--f-body);
+  text-align: center;
+  background: linear-gradient(270deg, #2b54a5 0.24%, #22aae1 46.74%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem; /* 140% */
+}
+.main .trend-section .title-gradient p {
+  color: var(--Gray-5, #545454);
+  text-align: center;
+  /* Body/16/Regular */
+  font-family: var(--f-body);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+.main .trend-section .content {
+  display: flex;
+  width: 100%;
+  height: 26.875rem;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main .trend-section .content .img {
+  width: 60%;
+}
+.main .trend-section .content .tab-content {
+  width: 40%;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header:not(.collapsed) {
+  background: var(--Primary-2, #1fa8df);
+  padding-left: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header:not(.collapsed) svg path {
+  fill: white;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header:not(.collapsed) span {
+  color: var(--White, #fff);
+  /* Heading/20/Bold */
+  font-family: var(--f-body);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 160% */
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-item .accordion-button:focus {
+  border-color: none;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header {
+  padding: 1.38rem 2.81rem 3rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header svg path {
+  fill: #2d55a5;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-header span {
+  color: var(--Gray-6, #3f3d48);
+  /* Heading/20/Bold */
+  font-family: var(--f-body);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 160% */
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-collapse {
+  background: var(--Primary-2, #1fa8df);
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-collapse .accordion-body {
+  padding-left: 7.6rem;
+  padding-bottom: 1.2rem;
+  padding-top: 0.5rem;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-collapse .accordion-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  list-style: disc;
+}
+.main .trend-section .content .tab-content .accordion-item .accordion-collapse .accordion-body ul li {
+  color: var(--White, #fff);
+  /* Body/16/Regular */
+  font-family: var(--f-body);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
 }/*# sourceMappingURL=phuc.css.map */
