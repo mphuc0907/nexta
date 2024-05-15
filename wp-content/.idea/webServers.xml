@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bfef1fb9-85f0-4eb2-8019-699a33e19a97" name="nexta">
+        <fileTransfer accessType="SFTP" host="mymonda.net" port="22" sshConfigId="dbf35303-2ed3-437a-b444-d4b7806a4b82" sshConfig="root@mymonda.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

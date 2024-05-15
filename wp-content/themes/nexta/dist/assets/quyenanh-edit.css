@@ -1,0 +1,185 @@
+.menu__cart{
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 1rem;
+    border-radius: 62.4375rem;
+    background: #2D55A5;
+    gap: 0.5rem;
+}
+@media screen and (max-width: 1199px){
+    .menu__cart{
+        position: relative!important;
+    }
+    .bar-right{
+        display: flex;
+        gap: 1.25rem;
+    }
+    .sidebar-menu{
+        z-index: 2;
+    }
+}
+
+.menu__cart a:hover{
+    color: #fff;
+    /*font-size: 1rem;*/
+}
+.menu__cart .number{
+    position: absolute;
+    top: 0.9375rem;
+    right: 1rem;
+    color: #fff;
+    z-index: 1;
+}
+.menu__cart .number::before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: -4px;
+    background: linear-gradient(269deg, #2B54A5 49.86%, #22AAE1 99.34%);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    z-index: -1;
+}
+.menu__cart a{
+    color: #FFF!important;
+    font-family: var(--f-body);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem; 
+}
+.section-3-device .container .list-device .item .image figure{
+    height: 100%;
+}
+
+.section-3-device .container .list-device .item .image img {
+    /* scale: 0.9; */
+    max-width: unset;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    scale: unset!important;
+}
+.section-4-device .container .list-device .item .image img{
+    max-width: unset;
+    height: 100%;
+    object-fit: contain;
+}
+.section-4-device .container .list-device .item .image figure{
+    height: 100%;
+}
+.section-4-device .container .list-device .item .image{
+    overflow: hidden;
+}
+.section-3-detail .list-device{
+    gap: 2.5rem 0;
+}
+
+
+.section-1-news-detail .col-mid {
+    overflow: hidden;
+}
+.section-2-device-detail .container .wrapper .col-right.fixed-bot {
+    display: none;
+    /*top: -5rem;*/
+    /*transform: translateX(2rem);*/
+}
+
+.section-2-device-detail .container .wrapper .col-right .table{
+    max-height: 28.75rem;
+    overflow-y: scroll;
+}
+.section-2-app-intro .container .list-target .child .content-wrapper .text{
+    height: unset;
+    min-height: 13.5rem;
+}
+@media screen and (max-width: 767px){
+    .section-2-app-intro .container .list-target .child .content-wrapper .text{
+        min-height: 17.5rem;
+    }
+    .section-4-app-intro .container{
+        padding: 0 0 1rem 0;
+    }
+}
+.section-4-app-intro{
+    margin: unset;
+}
+.section-4-app-intro .container{
+    padding-top: 0;
+}
+
+@media screen and (max-width: 576px){
+    .section-2-app-intro .container .list-target .child .content-wrapper .text{
+        min-height: unset;
+    }
+}
+.section-2-app-intro .container .list-target{
+    gap: 2.5rem 0;
+}
+@media screen and (max-width: 991px){
+    .section-1-device-detail .container .wrapper .col-left .slider-galeria .child img{
+        min-height: unset;
+        object-fit: contain;
+    }
+    .section-1-app-intro .container .wrapper .col-right .btn-trial{
+        width: 100%;
+    }
+    .section-1-app-intro .container .wrapper .col-right .product-desc{
+        width: 100%;
+    }
+    .section-1-app-intro .container .wrapper .col-right .product-name h2{
+        width: 100%;
+    }
+
+
+}
+
+.section-1-news-detail ul{
+    list-style: inside;
+}
+
+/*
+    fix 4/10
+*/
+
+main .section-2-device .content .grid-box .grid-one .col-box .box h3{
+    font-weight: 700;
+
+}
+main .section-2-device .content .grid-box .grid-two .col-box .box h3{
+    font-weight: 700;
+}
+.section-4-news-event .container .content .child .content-wrapper .col-right .text .logo{
+    width: 6.0625rem;
+}
+.section-4-news-event .container .content .child .content-wrapper figure{
+    padding-top: 64.3%;
+}
+/*
+fix container
+*/
+.container{
+    @media (min-width: 1600px){
+        max-width: 1320px!important;
+    }
+}
+@media (min-width: 1600px) {
+    .section-1-device-detail .container .wrapper .col-left .slider-galeria .child img{
+        max-height: 33.25rem;
+    }
+}
+main.main .section-home-7 .content .list-slide-tabs .tabs-slide .tab-content .tab-pane .box-slide .box .short{
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media screen and (min-width: 767px){
+    main.main .section-home-7 .content .list-slide-tabs .tabs-slide .tab-content .tab-pane .box-slide .box{
+        min-height: 25.625rem;
+    }
+
+}
+
