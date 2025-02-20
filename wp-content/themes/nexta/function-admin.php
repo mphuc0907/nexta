@@ -288,10 +288,10 @@ function oderProduct() {
 
 
     $API_URL = "https://crm.bizfly.vn/_api/base-table/update";
-    $API_KEY = "w6SCy6GSc8f30277ca0f4c80f1fbc2c6521b1a55rtj3PmlS";
-    $API_SECRET = "80752abfff47460b9fc0ac5930f837654beff8c2";
-    $API_EMBED_KEY = "a7e577c4ca27c7885cc52a2642951477";
-    $PROJECT_TOKEN = "27715267-6193-4dc3-aa41-ddfe4fdd5a8e";
+    $API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $API_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $API_EMBED_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $PROJECT_TOKEN = "xxxxxxxx-xxxxx-xxxxxx-xxxxxxx";
     $TIME_NOW = time();
 
 //Băm token
@@ -564,10 +564,10 @@ function CrmForm() {
 
 
     $API_URL = "https://crm.bizfly.vn/_api/base-table/update";
-    $API_KEY = "w6SCy6GSc8f30277ca0f4c80f1fbc2c6521b1a55rtj3PmlS";
-    $API_SECRET = "80752abfff47460b9fc0ac5930f837654beff8c2";
-    $API_EMBED_KEY = "a7e577c4ca27c7885cc52a2642951477";
-    $PROJECT_TOKEN = "27715267-6193-4dc3-aa41-ddfe4fdd5a8e";
+    $API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $API_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $API_EMBED_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    $PROJECT_TOKEN = "xxxxxxx-xxxx-xxx-xxxxx-xxxxxxxx";
     $TIME_NOW = time();
 
 //Băm token
